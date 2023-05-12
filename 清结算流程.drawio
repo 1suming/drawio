@@ -1,11 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2023-05-12T11:53:32.508Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="nHBkaxf5tX0gEZttGXjr" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-12T12:09:20.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="QeZz7ddEBvr6T78CuXFt" version="21.1.5" type="github">
   <diagram name="第 1 页" id="tJ2cZZhzwSiRv1uxZi0t">
     <mxGraphModel dx="1461" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OzVoqJx9kRrpjT8EmI1z-1" value="业务侧/合作方侧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jCMWEjOaBhbwBYigm89Z-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OzVoqJx9kRrpjT8EmI1z-1" target="jCMWEjOaBhbwBYigm89Z-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OzVoqJx9kRrpjT8EmI1z-1" value="业务侧/合作方侧" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCMWEjOaBhbwBYigm89Z-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jCMWEjOaBhbwBYigm89Z-1" target="jCMWEjOaBhbwBYigm89Z-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jCMWEjOaBhbwBYigm89Z-1" value="交易系统（pos交易系统和扫码交易系统是分开的）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCMWEjOaBhbwBYigm89Z-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jCMWEjOaBhbwBYigm89Z-3" target="jCMWEjOaBhbwBYigm89Z-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jCMWEjOaBhbwBYigm89Z-3" value="商户清结算系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCMWEjOaBhbwBYigm89Z-5" value="代理商分润系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCMWEjOaBhbwBYigm89Z-7" value="负责交易清分，就做一件事，算商户手续费多少，jis计算打款金额=交易金额-手续费。 然后打款给商户" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="250" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jCMWEjOaBhbwBYigm89Z-9" value="算出来代理商分润" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jCMWEjOaBhbwBYigm89Z-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jCMWEjOaBhbwBYigm89Z-10" target="jCMWEjOaBhbwBYigm89Z-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jCMWEjOaBhbwBYigm89Z-10" value="代付系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCMWEjOaBhbwBYigm89Z-11" value="提现打款系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCMWEjOaBhbwBYigm89Z-13" value="合作方发起代付" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCMWEjOaBhbwBYigm89Z-14" value="资金从A转到B，然后对B发起提现" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="560" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="jCMWEjOaBhbwBYigm89Z-16" value="清结算分2种：D0/D1. d0就是商户配置了D0而且风控通过就走D0，否则转D1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="170" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
